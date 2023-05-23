@@ -1,0 +1,41 @@
+body {
+  background-color: brown;
+}
+
+.cont {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.one {
+  display: flex;
+  align-items: center;
+  background-color: blueviolet;
+}
+.two {
+  background-color: cyan;
+  display: flex;
+  align-items: center;
+}
+.form {
+  border-radius: 10px;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(66, 180, 104);
+}
+
+@media screen and (max-width: 560px) {
+  .cont {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 0.7fr;
+  }
+}
+
+@media screen and (min-width: 561px) and (max-width: 700px) {
+  body {
+    background-color: rgb(6, 207, 104);
+  }
+}

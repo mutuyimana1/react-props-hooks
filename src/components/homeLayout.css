@@ -1,0 +1,9 @@
+.home-container {
+  /* background-image: url("../assets/images/bright background.jpg"); */
+  background-color: aliceblue;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
